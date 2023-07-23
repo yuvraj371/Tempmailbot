@@ -10,7 +10,7 @@ app = Client("tempmailbot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKE
 def start(client, message):
     client.send_message(
         chat_id=message.chat.id,
-        text="Welcome to the TempMailBot!\n\nThis Bot Is An Open Source For Repository join: @BotGeniusHub"
+        text="Welcome to the TempMailBot!\n\nThis Bot Is An Open Source For Repository join: @Infinity_XBotz"
     )
 
 @app.on_message(filters.command("help"))
