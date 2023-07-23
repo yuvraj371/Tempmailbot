@@ -94,7 +94,6 @@ def delete_mail(client, message):
         )
 
 if __name__ == '__main__':
-    
-app.start()
+    app.start()
 idle()
 # Ram Ram
